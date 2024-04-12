@@ -8,13 +8,13 @@ export function BackgroundBoxesDemo() {
       <div className="absolute inset-0 bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
       <Boxes />
-      <h1 className={cn('md:text-4xl text-xl text-white relative z-20')}>
+      <h1 className={cn('md:text-6xl text-xl text-white relative z-20 font-bold')}>
         Brett Comrie | Developer
       </h1>
-      <p className="text-center mt-2 text-neutral-300 relative z-20">
+      <p className="text-center mt-2 text-neutral-300 relative z-20 font-medium text-lg leading-loose">
         Crafting user-friendly web experiences.
       </p>
-      <p className="text-center mt-2 text-neutral-300 relative z-20">
+      <p className="text-center mt-2 text-neutral-300 relative z-20 font-medium text-lg leading-loose">
         Passionate about coding for positive impact.
       </p>
       <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded z-30">

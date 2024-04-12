@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <NavItem href="/">Home</NavItem>
                   <NavItem href="/about">About</NavItem>
-                  <NavItem href="/services">Services</NavItem>
+                  <NavItem href="/projects">Projects</NavItem>
                   <NavItem href="/contact">Contact</NavItem>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
               <div className="px-2 pt-2 pb-3 space-y-1">
                 <NavItem href="/">Home</NavItem>
                 <NavItem href="/about">About</NavItem>
-                <NavItem href="/services">Services</NavItem>
+                <NavItem href="/projects">Projects</NavItem>
                 <NavItem href="/contact">Contact</NavItem>
               </div>
             </div>
